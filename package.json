@@ -15,7 +15,7 @@
     "ios-gcm",
     "cordova-ios"
   ],
-  "author": "Karan Kumar <karan@promactinfo.com>",
+  "author": "Karan Kumar <karan@promactinfo.com>, Hetul Soni <hetul@promactinfo.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/promactkaran/GCM-iOS-Cordova/issues"
