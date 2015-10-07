@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-gcm-ios",
+  "version": "1.0.0",
+  "description": "This plugin allows your application to receive push notifications on iOS using Google Cloud Messaging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promactkaran/GCM-iOS-Cordova.git"
+  },
+  "keywords": [
+    "cordova-gcm",
+    "ios-gcm",
+    "cordova-ios"
+  ],
+  "author": "Karan Kumar <karan@promactinfo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/promactkaran/GCM-iOS-Cordova/issues"
+  },
+  "homepage": "https://github.com/promactkaran/GCM-iOS-Cordova#readme"
+}
