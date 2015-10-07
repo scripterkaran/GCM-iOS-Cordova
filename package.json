@@ -11,6 +11,7 @@
     "url": "git+https://github.com/promactkaran/GCM-iOS-Cordova.git"
   },
   "keywords": [
+    "ecosystem:cordova",
     "cordova-gcm",
     "ios-gcm",
     "cordova-ios"
