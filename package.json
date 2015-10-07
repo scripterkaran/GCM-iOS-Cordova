@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-gcm-ios",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This plugin allows your application to receive push notifications on iOS using Google Cloud Messaging.",
   "main": "index.js",
   "scripts": {
