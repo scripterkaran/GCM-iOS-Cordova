@@ -18,7 +18,7 @@ Assuming you have your Cordova application up and running:
 
 2) Put your configuration file in the root of your project and make sure to add it to your target as advice by Google.
 
-3) Run `cordova plugin add cordova-plugin-gcmpushplugin` to install the plugin
+3) Run `cordova plugin add  cordova-plugin-gcm-ios` to install the plugin
 
 ### Registration
 
