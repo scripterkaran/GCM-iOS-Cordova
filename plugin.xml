@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-gcmpushplugin"
+        version="1.2.0">
+
+    <name>cordova-plugin-Gcm-iOS</name>
+    <author>Promact Info</author>
+
+    <description>
+        This plugin allows your application to receive push notifications on iOS using Google Cloud Messaging.
+    </description>
+
+    <license>MIT</license>
+
+    <js-module src="www/gpp.js" name="GCMPushPlugin">
+        <clobbers target="GcmPushPlugin"/>
+    </js-module>
+
+    <engines>
+        <engine name="cordova" version=">=3.8.0"/>
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="GCMPushPlugin">
+                <param name="ios-package" value="GCMPushPlugin"/>
+                <param name="onload" value="true"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/GCMPushPlugin.h"/>
+        <header-file src="src/ios/AppDelegate+Notification.h"/>
+
+        <source-file src="src/ios/GCMPushPlugin.m"/>
+        <source-file src="src/ios/AppDelegate+Notification.m"/>
+
+    </platform>
+
+</plugin>
