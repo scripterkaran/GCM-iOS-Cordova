@@ -10,7 +10,7 @@ Implementation of Push Notifications using GCM that Google featured in their 201
 - This project is forked from https://github.com/gonzaloaune/GCMPushPlugin.git, but improved to get more usability on iOS part.
 
 ### Installation
-`cordova plugin add cordova-plugin-gcmpushplugin`
+`cordova plugin add  cordova-plugin-gcm-ios`
 
 Assuming you have your Cordova application up and running:
 
