@@ -18,7 +18,26 @@ Assuming you have your Cordova application up and running:
 
 2) Put your configuration file in the root of your project and make sure to add it to your target as advice by Google.
 
-3) Run `cordova plugin add  cordova-plugin-gcm-ios` to install the plugin
+3)Go to https://developers.google.com/cloud-messaging/ios/client and follow the POD installation.
+
+Following Points are just summary of how to get started with pop configurations:
+
+-Make sure you have properly configured PODFile. It should Look like 
+
+```
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'HelloCordova' do
+pod 'Google/CloudMessaging'
+end
+```
+And Make sure to do `pod install`
+
+And Open only `.xcworkspace` for future development from Xcode
+
+
+4) Run `cordova plugin add  cordova-plugin-gcm-ios` to install the plugin
 
 ### Registration
 
