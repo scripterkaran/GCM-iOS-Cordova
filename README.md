@@ -120,42 +120,6 @@ The `setApplicationIconBadgeNumber` method will set (as the name says) the appli
 window.GcmPushPlugin.unregister({'badge':12});
 ```
 
-##<a name="ios-install-native"></a> iOS native installation
-
-Assuming you have your Cordova application up and running:
-
-1) Run `cordova plugin add cordova-plugin-gcmpushplugin` to install the plugin and proceed to [Usage Native iOS](#ios-usage-native)
-
-### Unregister
-
-The `unregister` method will unregister your device. The way to call it is the following:
-
-```js
-window.GcmPushPlugin.unregister(unregisterSuccess, unregisterError);
-```
-
-The first parameter is the callback that will be fired once the unregistration is successful.
-```js
-function unregisterSuccess(result) {
-  console.log("Unregister success: " + result);
-}
-```
-The second parameter is the callback that will be fired if there was an error while unregistering.
-```js
-function unregisterError(error) {
-  console.log("Error: " + error);
-}
-```
-
-If everything goes well and you are able to unregister, you won't be able to send a push notification anymore.
-
-### setApplicationIconBadgeNumber
-
-The `setApplicationIconBadgeNumber` method will set (as the name says) the application badge icon number to whatever you want. The way to call it is the following:
-
-```js
-window.GcmPushPlugin.unregister({'badge':12});
-```
 
 ```
 The MIT License
