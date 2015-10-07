@@ -18,9 +18,9 @@ Assuming you have your Cordova application up and running:
 
 2) Put your configuration file in the root of your project and make sure to add it to your target as advice by Google.
 
-3)Go to https://developers.google.com/cloud-messaging/ios/client and follow the POD installation.
+3) Go to https://developers.google.com/cloud-messaging/ios/client and follow the POD installation.
 
-Following Points are just summary of how to get started with pop configurations:
+Following Points are just summary of how to get started with POD configurations:
 
 -Make sure you have properly configured PODFile. It should Look like 
 
